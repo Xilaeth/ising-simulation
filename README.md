@@ -6,11 +6,7 @@ Developed over a one-week seminar on the computational simulation of magnetism a
 
 > **Status:** Archived seminar project — cleaned up for reference.
 
-<p align="center">
-  <img src="figures/preview.gif" alt="2D Ising model MCMC spin simulation preview" width="500" />
-  <br />
-  <em>MCMC spin-lattice simulation preview (trimmed and sped up from <code>figures/anim-3.mp4</code>).</em>
-</p>
+![2D Ising model MCMC spin simulation preview](figures/preview.gif)
 
 ## Repository Contents
 
