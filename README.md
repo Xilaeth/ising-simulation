@@ -1,29 +1,33 @@
 # Computational Simulation of the Ising Model
 
-This project implements a computational simulation of the Ising Model in Python based on Monte Carlo Markov Chains.
+Python implementation of the 2D Ising model using Markov Chain Monte Carlo (MCMC) methods (Metropolis–Hastings algorithm) to investigate ferromagnetic phase transitions and spin dynamics.
 
-The project was written within a one-week time span as part of a seminar investigating the computational simulation
-of magnetism as part of the Heidelberg Life Science Lab at the German Cancer Research Centre (DKFZ). 
+Developed over a one-week seminar on the computational simulation of magnetism as part of the Heidelberger Life-Science Lab at the German Cancer Research Center (DKFZ).
 
-> **Status:** Archived personal project - cleaned up for reference
+> **Status:** Archived seminar project — cleaned up for reference.
 
-## Features
-- Includes a Python Notebook provided by the host of the seminar, as well as a stand-alone python implementation I wrote.
-- Includes a list of interesting figures and animations in the `figure/` folder.
-- Includes a presentation that I held for the theoretical physics group as preparation for the seminar.
+<p align="center">
+  <img src="figures/preview.gif" alt="2D Ising model MCMC spin simulation preview" width="500" />
+  <br />
+  <em>MCMC spin-lattice simulation preview (trimmed and sped up from <code>figures/anim-3.mp4</code>).</em>
+</p>
+
+## Repository Contents
+
+- `main.py` — Stand-alone Python implementation of the MCMC Ising simulation and observable measurements
+- `*.ipynb` — Seminar Jupyter notebook containing theoretical background and guided exercises (provided by the seminar host)
+- `figures/` — Generated plots and animations, including `preview.gif` and the full `anim-3.mp4` recording
+- Presentation slides prepared for the DKFZ Theoretical Physics Working Group
 
 ## Prerequisites
 
-Originally written 2+ years ago without strict pinned version numbers. 
+Originally written without strict pinned version numbers.
 
-- **Python:** 3.8+ 
-- **Libraries:**
-    - **Numpy** 
-    - **matplotlib** 
+- **Python:** 3.8+
+- **Libraries:** `numpy`, `matplotlib`
 
 ## Getting Started
 
-The code can either be inspected through the Python Notebook with some additional theoretical background and in a streamlined
-task layout. The code of my stand-alone implementation can be found in the `main.py` file.
-
-Additionally, some particularly interesting figures and animations can be found in the `figures/` folder.
+1. Install dependencies:
+   ```bash
+   pip install numpy matplotlib
