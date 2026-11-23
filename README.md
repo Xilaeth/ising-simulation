@@ -7,7 +7,7 @@ Developed over a one-week seminar on the computational simulation of magnetism a
 > **Status:** Archived seminar project — cleaned up for reference.
 
 <p align="center">
-  <img src="figures/preview.png" alt="2D Ising model MCMC spin simulation preview" width="500" />
+  <img src="preview.png" alt="2D Ising model MCMC spin simulation preview" width="500" />
   <br />
   <em>2D Ising model MCMC simulation preview (see <code>figures/anim-3.mp4</code> for the full animation).</em>
 </p>
