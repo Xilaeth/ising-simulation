@@ -6,13 +6,17 @@ Developed over a one-week seminar on the computational simulation of magnetism a
 
 > **Status:** Archived seminar project — cleaned up for reference.
 
-![2D Ising model MCMC spin simulation preview](figures/preview.gif)
+<p align="center">
+  <img src="figures/preview.png" alt="2D Ising model MCMC spin simulation preview" width="500" />
+  <br />
+  <em>2D Ising model MCMC simulation preview (see <code>figures/anim-3.mp4</code> for the full animation).</em>
+</p>
 
 ## Repository Contents
 
 - `main.py` — Stand-alone Python implementation of the MCMC Ising simulation and observable measurements
 - `*.ipynb` — Seminar Jupyter notebook containing theoretical background and guided exercises (provided by the seminar host)
-- `figures/` — Generated plots and animations, including `preview.gif` and the full `anim-3.mp4` recording
+- `figures/` — Generated plots and animations, including `preview.png` and `anim-3.mp4`
 - Presentation slides prepared for the DKFZ Theoretical Physics Working Group
 
 ## Prerequisites
